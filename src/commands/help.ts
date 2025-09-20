@@ -14,7 +14,7 @@ const help: Command = {
           .setThumbnail(message.client.user?.displayAvatarURL() || null)
           .setTimestamp()
           .setFooter({
-            text: `${message.author.username} вот тебе список команд!`,
+            text: `${message.author.username} , вот тебе список команд!`,
           });
 
         if (command) {
